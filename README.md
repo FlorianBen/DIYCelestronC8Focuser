@@ -1,4 +1,4 @@
-# DIYCelestronC8Focuser
+# DIYCelestronC8Focuser (WIP)
 DIY focuser for the Celestron C8 telescope aka poor's man focuser.
 
 The main goal of this project is to provide a cheap solution for motorizing the focus rod of a Celestron C8 SCT.
