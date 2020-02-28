@@ -43,4 +43,9 @@ FOCus:STEPper:MAXpos?     | Ask for the maximum position.
 
 ## Indilib
 
-especially the Ekos 
+An INDI driver is avaible for the focuser. The patch is avaible in the indi folder. First download INDI source files from here [INDI](https://github.com/indilib/indi) and apply the patch:
+```
+cd indi
+git am --signoff -k < 0001-Support-for-an-poor-man-s-DIY-focuser-for-Celestron.patch
+```
+Then indi can be build as described in the [INDI Readme](https://github.com/FlorianBen/indi#building)
